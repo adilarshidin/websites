@@ -17,8 +17,7 @@ const App = () => {
   };
   const imgStyles = {
     height: 'auto',
-    width: '30%',
-    maxWidth: '300px',
+    maxWidth: '25%',
     margin: '0 1rem',
   };
   const headerStyles = {
