@@ -1,5 +1,8 @@
 import Sparkles from "./components/Sparkles";
 
+import horseOne from './assets/horse1.png';
+import horseTwo from './assets/horse2.png';
+
 
 const App = () => {
   const mainStyles = {
@@ -32,9 +35,9 @@ const App = () => {
   return (
     <Sparkles>
     <main style={mainStyles}>
-      <img style={imgStyles} src='./src/assets/horse1.png' />
+      <img style={imgStyles} src={horseOne} />
       <h2 style={headerStyles}>A mi corazon Sofia</h2>
-      <img style={imgStyles} src='./src/assets/horse2.png' />
+      <img style={imgStyles} src={horseTwo} />
     </main>
     </Sparkles>
   );
