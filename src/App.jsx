@@ -16,8 +16,10 @@ const App = () => {
     textAlign: 'center',
   };
   const imgStyles = {
-    height: '300px',
-    width: '300px'
+    height: 'auto',
+    width: '30%',
+    maxWidth: '300px',
+    margin: '0 1rem',
   };
   const headerStyles = {
     fontFamily: "'Great Vibes', cursive",
