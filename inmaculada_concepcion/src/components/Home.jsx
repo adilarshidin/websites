@@ -52,7 +52,6 @@ const Paragraph = styled.p`
 
   font-size: clamp(1.2rem, 3vw, 2.2rem);
   line-height: 1.4;
-  padding: 1rem 1.5rem;
 
   /* improves readability on busy images */
   background: rgba(0, 0, 0, 0.45);
