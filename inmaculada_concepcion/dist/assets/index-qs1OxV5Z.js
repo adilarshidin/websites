@@ -64,6 +64,7 @@ Please change the parent <Route path="${L}"> to <Route path="${L==="/"?"*":`${L}
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  width: 80%;
 
   z-index: 2;
   color: white;
@@ -72,7 +73,6 @@ Please change the parent <Route path="${L}"> to <Route path="${L==="/"?"*":`${L}
 
   font-size: clamp(1.2rem, 3vw, 2.2rem);
   line-height: 1.4;
-  padding: 1rem 1.5rem;
 
   /* improves readability on busy images */
   background: rgba(0, 0, 0, 0.45);
