@@ -44,6 +44,7 @@ const Paragraph = styled.p`
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  width: 80%;
 
   z-index: 2;
   color: white;
