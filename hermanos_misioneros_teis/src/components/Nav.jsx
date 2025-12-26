@@ -4,16 +4,27 @@ import { Link } from "react-router";
 const StyledNav = styled.nav`
   display: flex;
   justify-content: space-around;
+  align-items: center;
 
-  position: relative;
-  width: 70%;
-  bottom: 50px;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
 
-  background: rgb(1,50,32);
   background: linear-gradient(159deg, rgba(1,50,32,1) 0%, rgba(57,255,20,1) 100%);
-
   border: solid 2px darkgreen;
   border-radius: 5px;
+
+  /* allow links to wrap on mobile */
+  flex-wrap: wrap;
+  padding: 0.5rem;
+
+  /* remove bottom offset */
+  position: static;
+
+  @media (max-width: 480px) {
+    flex-direction: column;
+    align-items: stretch;
+  }
 `;
 
 const StyledLink = styled(Link)`

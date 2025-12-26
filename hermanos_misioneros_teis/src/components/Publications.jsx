@@ -20,6 +20,8 @@ const Container = styled.div`
 const ImagesContainer = styled.div`
   border: 1px solid darkgreen;
   padding: 3%;
+  display: flex;
+  flex-direction: column;
 `;
 
 const Image = styled.img`
