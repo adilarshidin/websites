@@ -7,6 +7,7 @@ import tabletImage from "../assets/4.webp";
 import confessionBoothImage from "../assets/5.webp";
 import ViewWrapper from "./ViewWrapper";
 import SEO from "./SEO";
+import Horarios from "../content-renderers/Horarios";
 
 const ImageBlock = styled.div`
   display: flex;
@@ -159,16 +160,7 @@ const About = () => (
 
       <Section id="horarios" style={{ scrollMarginTop: "25em" }}>
         <h2>Horarios de misas</h2>
-        <p>De octubre a mayo:</p>
-        <p>Diario: 9:30 y 18:30 horas.</p>
-        <p>Sábados: 18:30 y 20:00 horas.</p>
-        <p>Domingos: 10:00, 12:00 y 13:00 horas.</p>
-        <p>Festivos: 10:00, 12:00</p>
-        <br />
-        <p>De junio a septiembre:</p>
-        <p>Diario: 9:30 y 20:00 horas.</p>
-        <p>Sábados: 18:30 y 20:00 horas.</p>
-        <p>Domingos y festivos: 10:00 y 12:30 horas.</p>
+        <Horarios />
         <br />
         <p>
           Consulta también nuestras{" "}
